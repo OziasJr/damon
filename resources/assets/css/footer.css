@@ -1,0 +1,10 @@
+.footer {
+    grid-area: footer;
+    background: linear-gradient(135deg, #000000, #4d5455);
+    height: 130px;
+}
+
+.footer img {
+    width: 80px;
+    height: 80px;
+}

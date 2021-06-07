@@ -1,0 +1,15 @@
+:root {
+    --bgc-sidebar-grey: #1282b6;
+    --color-sidebar-grey: #ffffff;
+    --bgc-header-gd-r: #a72811;
+    --bgc-header-gd-l: #ff3e1c;
+    --color-header-grey: #ffffff;
+    --bgc-button-blue: #008197;
+    --color-button-blue: #acbfe2;
+    --color-text: #ffffff;
+    --color-icon: #2b0474;
+    --bgc-wp-gd-r: #2a7408;
+    --bgc-wp-gd-l: #4edb0d;
+    --bgc-button-pink: rgb(236, 112, 112);
+    --bgc-button-pink-hover: rgb(226, 89, 89);
+}
