@@ -5,8 +5,8 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
-    <link rel="stylesheet" href="resources/assets/css/style.css">
+    <link rel="stylesheet" href="/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="/css/style.css">
     <title>DAMON HUBERMAN</title>
 </head>
 
@@ -27,9 +27,9 @@
                 </form>
             </nav>
             <main class="main">
-                <a href="#" class="img1 d-flex justify-content-end"><img src="./assets/img/img1@1,5x.png" alt=""></a>
-                <a href="#" class="img2"><img src="./assets/imgage/img2@1,5x.png" alt=""></a>
-                <a href="#" class="img3"><img src="./assets/image/img3@1,5x.png" alt=""></a>
+                <a href="#" class="img1 d-flex justify-content-end"><img src="/image/img1@1,5x.png" alt=""></a>
+                <a href="#" class="img2"><img src="/image/img2@1,5x.png" alt=""></a>
+                <a href="#" class="img3"><img src="/image/img3@1,5x.png" alt=""></a>
                 <div class="left d-flex flex-column">
                     <div class="title">
                         <a href="#">
@@ -59,7 +59,7 @@
                 <div class="right">
                     <div class="damon">
                         <div>
-                            <img src="./assets/image/p2.jpg" class="rounded mb-4 mx-auto d-block rounded-circle" alt="">
+                            <img src="/image/p2.jpg" class="rounded mb-4 mx-auto d-block rounded-circle" alt="">
                         </div>
                         <div>
                             <h3>Damon Huberman</h3>
@@ -73,18 +73,18 @@
                         </div>
                     </div>
                     <div class="social d-flex justify-content-center">
-                        <a href="https://www.instagram.com/" target="_blank"><img src="./assets/image/instagram.svg"
+                        <a href="https://www.instagram.com/" target="_blank"><img src="/image/instagram.svg"
                                 alt=""></a>
-                        <a href="https://www.facebook.com/" target="_blank"><img src="./assets/image/facebook.svg"
+                        <a href="https://www.facebook.com/" target="_blank"><img src="/image/facebook.svg"
                                 alt=""></a>
-                        <a href="https://twitter.com/" target="_blank"><img src="./assets/image/twitter.svg" alt=""></a>
-                        <a href="https://br.pinterest.com/" target="_blank"><img src="./assets/image/pinterest.svg"
+                        <a href="https://twitter.com/" target="_blank"><img src="/image/twitter.svg" alt=""></a>
+                        <a href="https://br.pinterest.com/" target="_blank"><img src="/image/pinterest.svg"
                                 alt=""></a>
-                        <a href="https://www.youtube.com/" target="_blank"><img src="./assets/image/youtube.svg"
+                        <a href="https://www.youtube.com/" target="_blank"><img src="/image/youtube.svg"
                                 alt=""></a>
                     </div>
                 </div>
-                <a href="#" class="img4"><img src="./assets/image/img4@1,25x.png" alt=""></a>
+                <a href="#" class="img4"><img src="/image/img4@1,25x.png" alt=""></a>
                 <div class="category">
                     <h4>Navegue nas categorias ▼</h4>
                 </div>
@@ -134,23 +134,23 @@
                     <h4>My Instagram</h4>
                 </div>
                 <div class="inst">
-                    <a href="https://www.instagram.com/" target="_blank"><img src="./assets/image/instagram.svg
+                    <a href="https://www.instagram.com/" target="_blank"><img src="/image/instagram.svg
                 " alt=""></a>
                     <div class="img-instagram">
                         <div class="img-one d-flex justify-between">
-                            <a href="https://instagram.com/" target="_blank"><img src="./assets/image/instagram01.jpg"
+                            <a href="https://instagram.com/" target="_blank"><img src="/image/instagram01.jpg"
                                     alt=""></a>
-                            <a href="https://instagram.com/" target="_blank"><img src="./assets/image/instagram02.jpg"
+                            <a href="https://instagram.com/" target="_blank"><img src="/image/instagram02.jpg"
                                     alt=""></a>
-                            <a href="https://instagram.com/" target="_blank"><img src="./assets/image/instagram03.jpg"
+                            <a href="https://instagram.com/" target="_blank"><img src="/image/instagram03.jpg"
                                     alt=""></a>
                         </div>
                         <div class="img-two d-flex justify-between">
-                            <a href="https://instagram.com/" target="_blank"><img src="./assets/image/instagram04.jpg"
+                            <a href="https://instagram.com/" target="_blank"><img src="/image/instagram04.jpg"
                                     alt=""></a>
-                            <a href="https://instagram.com/" target="_blank"><img src="./assets/image/instagram05.jpg"
+                            <a href="https://instagram.com/" target="_blank"><img src="/image/instagram05.jpg"
                                     alt=""></a>
-                            <a href="https://instagram.com/" target="_blank"><img src="./assets/image/instagram06.jpg"
+                            <a href="https://instagram.com/" target="_blank"><img src="/image/instagram06.jpg"
                                     alt=""></a>
                         </div>
                         <button type="button" class="btn p-3 btn-primary d-flex mx-auto">Siga-me no Instagram</button>
@@ -162,11 +162,11 @@
                     </div>
                     <div class="send">
                         <div class="col-wide">
-                            <a href="https://www.facebook.com/" target="_blank"><img src="./assets/image/facebook.svg"
+                            <a href="https://www.facebook.com/" target="_blank"><img src="/image/facebook.svg"
                                     alt=""></a>
-                            <a href="https://twitter.com/" target="_blank"><img src="./assets/image/twitter.svg"
+                            <a href="https://twitter.com/" target="_blank"><img src="/image/twitter.svg"
                                     alt=""></a>
-                            <a href="#" target="_blank"><img src="./assets/image/whatsapp.svg" alt=""></a>
+                            <a href="#" target="_blank"><img src="/image/whatsapp.svg" alt=""></a>
                         </div>
                     </div>
                 </div>
@@ -174,16 +174,16 @@
                     <h5 class="col-wide">Aproveite para ler também:</h5>
                 </div>
                 <div>
-                    <a href="#"><img class="img-fluid read-img01" src="./assets/image/img5@1,25x.png" alt=""></a>
+                    <a href="#"><img class="img-fluid read-img01" src="/image/img5@1,25x.png" alt=""></a>
                 </div>
                 <div>
-                    <a href="#"><img class="img-fluid read-img02" src="./assets/image/img6@1,25x.png" alt=""></a>
+                    <a href="#"><img class="img-fluid read-img02" src="/image/img6@1,25x.png" alt=""></a>
                 </div>
             </main>
         </header>
         <footer class="footer text-white align-items-center d-flex justify-content-between">
             <p class="p-4">© Damon Huberman - 2021 - Todos os direitos reservados</p>
-            <img class="p-2" src="./assets/image/pawprint.svg" alt="">
+            <img class="p-2" src="/image/pawprint.svg" alt="">
         </footer>
     </div>
 
@@ -191,7 +191,7 @@
     <script async defer crossorigin="anonymous"
         src="https://connect.facebook.net/pt_BR/sdk.js#xfbml=1&version=v10.0&appId=284615029380357&autoLogAppEvents=1"
         nonce="yjSVpQ6O"></script>
-    <script src="./assets/js/script.js"></script>
+    <script src="/js/script.js"></script>
 </body>
 
 </html>
