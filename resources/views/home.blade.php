@@ -1,35 +1,11 @@
-<!DOCTYPE html>
-<html lang="pt-br">
-
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="/bootstrap/dist/css/bootstrap.min.css">
-    <link rel="stylesheet" href="/css/style.css">
-    <title>DAMON HUBERMAN</title>
-</head>
-
+@include('layouts.head')
 <body>
     <div class="structure">
-        <header class="header">
-            <h1 class="h1">Damon Huberman</h1>
-            <nav class="nav d-flex align-items-center p-3 justify-content-between">
-                <ul class="d-flex">
-                    <li><a href="#" class="btn p-3 text-secondary"><b>Home</b></a></li>
-                    <li><a href="#" class="btn p-3 text-white">Sobre</a></li>
-                    <li><a href="#" class="btn p-3 text-white">Consultoria de Imagem e Estilo</a></li>
-                    <li><a href="#" class="btn p-3 text-white">Contato</a></li>
-                </ul>
-                <form action="" class="col-12 col-lg-auto mb-3 mb-lg-0 me-lg-3">
-                    <input type="search" class="form-control form-control-dark" aria-label="Search"
-                        placeholder="Search...">
-                </form>
-            </nav>
-            <main class="main">
-                <a href="#" class="img1 d-flex justify-content-end"><img src="/image/img1@1,5x.png" alt=""></a>
-                <a href="#" class="img2"><img src="/image/img2@1,5x.png" alt=""></a>
-                <a href="#" class="img3"><img src="/image/img3@1,5x.png" alt=""></a>
+        @include('layouts.header')
+        <main class="main">
+                <a href="hotel/{id}" id="franca" class="img1 d-flex justify-content-end"><img src="/image/img1@1,5x.png" alt=""></a>
+                <a href="hotel/{id}" id="tokyo" class="img2"><img src="/image/img2@1,5x.png" alt=""></a>
+                <a href="/curiosity" id="argentina" class="img3"><img src="/image/img3@1,5x.png" alt=""></a>
                 <div class="left d-flex flex-column">
                     <div class="title">
                         <a href="#">
@@ -179,19 +155,8 @@
                 <div>
                     <a href="#"><img class="img-fluid read-img02" src="/image/img6@1,25x.png" alt=""></a>
                 </div>
-            </main>
-        </header>
-        <footer class="footer text-white align-items-center d-flex justify-content-between">
-            <p class="p-4">© Damon Huberman - 2021 - Todos os direitos reservados</p>
-            <img class="p-2" src="/image/pawprint.svg" alt="">
-        </footer>
+        </main>
+        @include('layouts.footer')
     </div>
-
-
-    <script async defer crossorigin="anonymous"
-        src="https://connect.facebook.net/pt_BR/sdk.js#xfbml=1&version=v10.0&appId=284615029380357&autoLogAppEvents=1"
-        nonce="yjSVpQ6O"></script>
-    <script src="/js/script.js"></script>
+    @include('links.script')
 </body>
-
-</html>

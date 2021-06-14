@@ -16,4 +16,9 @@ use Illuminate\Support\Facades\Route;
 Route::get('/', function () {
     return view('home');
 });
-
+Route::get('hotel/{id}', function ($id) {
+    return view('hotel'.$id);
+});
+Route::get('/curiosity', function () {
+    return view('curiosityArgentina');
+});
